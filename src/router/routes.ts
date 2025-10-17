@@ -43,7 +43,7 @@ const routes: RouteRecordRaw[] = [
         component: () => import('pages/ParticipantDashboard.vue'),
         meta: { requiresAuth: true },
       },
-      {
+      /*{
         path: '/surveys',
         name: 'surveys',
         component: () => import('pages/SurveysPage.vue'),
@@ -52,7 +52,7 @@ const routes: RouteRecordRaw[] = [
         path: '/pricing',
         name: 'pricing',
         component: () => import('pages/PricingPage.vue'),
-      },
+      },*/
       {
         path: '/about',
         name: 'about',
